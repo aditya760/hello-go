@@ -36,13 +36,14 @@ uses a Marathon .json file (app.json) to deploys the newly created Docker Image
 (APP) to Marathon.
 
 ## RUN
-
+```
 ### Run Image from DockerHub
 
 Run in interactive mode so you can `ctrl-c` to stop.
 
 ```bash
 docker run -t -i jeffdeCola/hello-go
+```
 ```
 
 ### From the Command Line
@@ -95,5 +96,6 @@ deploys the newly created docker image to marathon.
 * A resource ([_`resource-template`_](https://github.com/JeffDeCola/resource-template))
   that can be used as a starting point and template for creating other concourse
   ci resources.
-
 The above resources can be removed from the pipeline.
+
+
