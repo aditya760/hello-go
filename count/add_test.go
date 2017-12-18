@@ -12,7 +12,7 @@ func TestAddthis(t *testing.T) {
 		args     args
 		wantTemp int
 	}{
-		{"counttest1", args{a: 2, b: 2}, 4},
+		{"counttest1", args{a: 2, b: 2}, 5},
 		{"counttest2", args{a: 4, b: 2}, 6},
 		{"counttest3", args{a: 9, b: 12}, 21},
 	}
